@@ -1,0 +1,117 @@
+body, .App {
+    padding: 50px;
+    text-align: center;
+    background-color: #282c34;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif
+  }
+  
+  header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .header-content {
+    margin-top: 20px;
+  }
+  
+  .social-links a {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .social-links img {
+    width: 30px;
+    height: auto;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+  }
+  
+  
+  /* Deixe o GitHub e o Instagram branco */
+  .social-links a:nth-child(1) img,
+  .social-links a:nth-child(3) img {
+    filter: brightness(0) invert(1);
+  }
+  
+  
+  .social-links img:hover {
+    transform: scale(1.1);
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .avatar-container {
+    margin-top: 20px;
+  }
+  #languages {
+    text-align: center;
+  }
+  
+  .language {
+    display: inline-block;
+    margin: 0 10px;
+    max-width: 200px; /* Ajuste o tamanho máximo conforme necessário */
+    text-align: center;
+  }
+  
+  .language img {
+    width: 100%; /* A imagem ocupará todo o espaço disponível dentro da div */
+    height: auto;
+  }
+  
+  .language span {
+    display: block; /* Coloca o texto abaixo da imagem */
+    margin-top: 20px; /* Adiciona um pequeno espaço entre a imagem e o texto */
+  }
+  .circular-image {
+    width: 100px; /* Ajuste o tamanho conforme necessário */
+    height: 100px; /* Ajuste o tamanho conforme necessário */
+    border-radius: 50%; /* Define a borda circular */
+  }
+  /* Estilos para os botões */
+.meu-botao {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff; /* Cor de fundo */
+    color: #fff; /* Cor do texto */
+    text-decoration: none;
+    border-radius: 20px; /* Borda arredondada */
+    border: none;
+    cursor: pointer;
+}
+
+/* Estilize o botão ao passar o mouse */
+.meu-botao:hover {
+    background-color: #0056b3; /* Mudar a cor ao passar o mouse */
+}
+
+  
+  .social-links {
+    margin-top: 20px;
+  }
+  
+  .social-links img {
+    width: 30px;
+    margin-right: 10px;
+  }
+  
